@@ -1,0 +1,7 @@
+-- CreateTable
+CREATE TABLE "Users" (
+    "id" TEXT NOT NULL PRIMARY KEY,
+    "name" TEXT NOT NULL,
+    "age" INTEGER NOT NULL,
+    "date" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
